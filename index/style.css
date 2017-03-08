@@ -1,4 +1,5 @@
 .rect-wrap {
+    background:rebeccapurple;
     position: relative;
     perspective: 1600px;
 }
