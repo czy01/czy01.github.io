@@ -99,8 +99,8 @@
 }
 
 #str {
-    width: 400px;
-position:absolute;
-top:50%;
-right:1%;
+    width: 50%;
+    margin: 0 auto;
+    color:red;
+
 }
