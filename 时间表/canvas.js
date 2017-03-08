@@ -1,5 +1,6 @@
 
 window.onload=function(){
+	var domes = document.getElementById('clock')
 	var ctx = domes.getContext('2d');
 	var width = ctx.canvas.width;
 	var height = ctx.canvas.height;
@@ -134,9 +135,8 @@ window.onload=function(){
 		};
 	};
 	marquee();
-	var Adome=document.getElementById("clock");
 	var aMis=document.getElementById("audo");
-	Adome.onclick=function(){
+	domes.onclick=function(){
 		alert("dfasf")
 	alert("是打发士大夫撒旦法")
 		if(aMis.paused){
@@ -146,8 +146,7 @@ window.onload=function(){
 			aMis.pause();
 		}
 	}
-}
-	aAudi.addEventListener('touchstart',function(event){
+	aMis.addEventListener('touchstart',function(event){
 		if(aMis.paused){
 			aMis.play();
 		}
@@ -156,7 +155,7 @@ window.onload=function(){
 		}
 	},false);
 
-	aAudi.addEventListener('onclick',function(event){
+	domes.addEventListener('onclick',function(event){
 		if(aMis.paused){
 			aMis.play();
 		}
@@ -164,3 +163,4 @@ window.onload=function(){
 			aMis.pause();
 		}
 	},false);
+}

@@ -16,6 +16,8 @@ box-shadow: 8px 3px 12px rebeccapurple, -7px 3px 18px rgba(180, 0, 255, 0.89);
 background:url(image/1.png) no-repeat;
 background-size:cover;
 border-radius:50%;
+position: relative;
+z-index: 99999;
 }
 .diaotu {
 	width:80px;
