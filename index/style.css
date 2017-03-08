@@ -103,5 +103,7 @@
     width: 50%;
     margin: 0 auto;
     color:red;
-
+    position: absolute;
+    top:10%;
+    right:1%;
 }
