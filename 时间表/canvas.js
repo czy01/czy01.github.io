@@ -137,8 +137,7 @@ window.onload=function(){
 	marquee();
 	var aMis=document.getElementById("audo");
 	domes.onclick=function(){
-		alert("dfasf")
-	alert("是打发士大夫撒旦法")
+		
 		if(aMis.paused){
 			aMis.play();
 		}
